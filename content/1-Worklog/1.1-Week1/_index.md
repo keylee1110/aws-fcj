@@ -13,6 +13,11 @@ pre: " <b> 1.1. </b> "
 * Learn about the office rules and procedures for going to the workplace.
 * Learn how to structure and write Internship Report.
 * Gain foundational knowledge of AWS services and practice using the Console and CLI.
+* Build and configure VPC components (Subnets, Route Tables, IGW, Security Groups, NACLs).
+* Launch and manage EC2 instances (AMI, EBS, Elastic IP, SSH access).
+* Learn how to clean up resources properly to avoid unnecessary charges.
+  
+---
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                                 | Start Date | Completion Date | Reference Material                                                                                                                                                                                                           |
@@ -26,7 +31,7 @@ pre: " <b> 1.1. </b> "
 | 7   | - Practical exercises with Amazon EC2: <br>&emsp; + Deployed a new EC2 instance from an AMI <br>&emsp; + Established remote access using SSH <br>&emsp; + Attached an EBS volume and verified storage expansion <br>&emsp; + Tested basic operations to confirm connectivity and functionality | 09/13/2025 | 09/13/2025      | <ul><li><a href="cloudjourney.awsstudygroup.com">AWS Study Group</a></li><li><a href="https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=WUiw02xGd5n35cao">First Cloud Journey Bootcamp - 2025</a></li></ul>                                                                                                                                                                                    |
 | 8   | - Performed full resource cleanup to avoid unwanted charges: <br>&emsp; + Terminated all EC2 instances (confirmed termination, noted data loss warning for instance store) <br>&emsp; + Deleted NAT Gateway and released unused Elastic IPs <br>&emsp; + Removed VPC Endpoints <br>&emsp; + Deleted VPN resources (Site-to-Site Connection, Virtual Private Gateway, Customer Gateway) <br>&emsp; + Removed VPC and associated subnets, route tables, NACLs, and security groups| 09/14/2025 | 09/14/2025      | <ul><li><a href="cloudjourney.awsstudygroup.com">AWS Study Group</a></li><li><a href="https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=WUiw02xGd5n35cao">First Cloud Journey Bootcamp - 2025</a></li></ul>                                                                                                                                                                                    |
 
-
+---
 
 ### Week 1 Achievements:
 
