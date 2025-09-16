@@ -1,12 +1,9 @@
 ---
 title: "Worklog Tuần 1"
-
+date: 2025-09-08
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
----
-Dưới đây là bản dịch đầy đủ sang tiếng Việt:
-
 ---
 
 ### Mục tiêu Tuần 1:
