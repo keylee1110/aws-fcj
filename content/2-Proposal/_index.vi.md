@@ -8,8 +8,6 @@ pre: " <b> 2. </b> "
 # Đề xuất – Trình phân tích Hồ sơ Thông minh
 _Một giải pháp AWS Serverless hợp nhất để phân tích CV so với JD và tạo Điểm phù hợp_
 
-> **Lưu ý:** Đề xuất này tuân theo phong cách phân mục của mẫu `_index.md` trước đó của bạn nhưng được viết lại cho dự án Trình phân tích Hồ sơ Thông minh.
-
 ---
 
 ## 1) Tóm tắt

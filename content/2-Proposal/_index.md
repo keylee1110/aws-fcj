@@ -10,8 +10,6 @@ pre: " <b> 2. </b> "
 # Proposal – Smart Resume Analyzer
 _A Unified AWS Serverless solution to analyze CVs vs JDs and generate Fit Scores_
 
-> **Note:** This proposal follows the sectioning style of your previous `_index.md` sample but is rewritten for the Smart Resume Analyzer project.
-
 ---
 
 ## 1) Executive Summary
