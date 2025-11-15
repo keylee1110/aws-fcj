@@ -31,4 +31,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages # <- đảm bảo đúng tên nhánh bạn dùng để deploy
+          user_name: 'khoald1110'
+          user_email: 'khoald1110@gmail.com'
           force_orphan: true # <- đảm bảo xóa lịch sử cũ ở nhánh gh-pages (giảm lỗi)
