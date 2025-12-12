@@ -1,0 +1,45 @@
+# Tóm tắt: Tính năng mới cho Quản lý nhân sự (WFM) trên Amazon Connect (Quý 2/2025)
+**Tác giả:** Vikas Prasad & Lakshay Mutreja  
+**Ngày phát hành:** 19/08/2025  
+**Chủ đề:** Amazon Connect, Workforce Management (WFM)
+
+---
+
+## 1. Tổng quan
+Amazon Connect vừa ra mắt các tính năng mới hỗ trợ **Dự báo, Lập kế hoạch năng lực và Lên lịch** dựa trên AI. Cập nhật này giúp các trung tâm liên hệ (Contact Center) tối ưu hóa nhân sự, dự đoán khối lượng cuộc gọi chính xác và giảm chi phí vận hành mà không cần tích hợp bên thứ ba phức tạp.
+
+## 2. Các tính năng mới nổi bật
+
+### A. Tùy chỉnh hoạt động công việc (Customize work activities)
+Cho phép phân loại chi tiết các đầu việc thay vì chỉ dùng nhãn mặc định là "Work" như trước đây.
+* **Chức năng:** Tạo nhãn tùy chỉnh cho các khung giờ (Ví dụ: "Xử lý đơn hàng", "Quản lý hoàn hàng", "Họp nhóm").
+* **Lợi ích:**
+    * **Quản lý:** Theo dõi chính xác thời gian dành cho từng loại nhiệm vụ (tiếp xúc khách hàng hoặc hành chính/admin).
+    * **Nhân viên:** Hiểu rõ lịch trình và nhiệm vụ cụ thể trong ngày.
+    * **Dữ liệu:** Đảm bảo dữ liệu sạch để phân tích năng suất chính xác hơn.
+
+### B. Chỉnh sửa dự báo trực tiếp qua giao diện (Edit forecasts via UI)
+Loại bỏ quy trình thủ công cũ (tải CSV $\rightarrow$ tính toán $\rightarrow$ tải lên lại) vốn tốn thời gian và dễ sai sót.
+* **Chức năng:** Điều chỉnh dự báo khối lượng liên hệ/thời gian xử lý trực tiếp trên giao diện Amazon Connect.
+* **3 cách điều chỉnh:**
+    1.  Theo tỷ lệ phần trăm (%).
+    2.  Cộng/trừ số lượng cụ thể (+/-).
+    3.  Thay thế bằng một con số cố định.
+* **Ứng dụng:** Phản ứng nhanh với các chiến dịch Marketing, ngày lễ, hoặc sự kiện bất ngờ.
+
+### C. Hoạt động định kỳ (Recurring activities)
+Tự động hóa việc lên lịch cho các sự kiện lặp lại (tương tự như Outlook hoặc Google Calendar).
+* **Chức năng:** Thiết lập một lần cho các cuộc họp hàng tuần, đào tạo định kỳ, v.v., và hệ thống tự động áp dụng cho tương lai.
+* **Lợi ích:** Tiết kiệm hàng giờ thao tác thủ công cho người quản lý lịch trình (Scheduler).
+* **Lưu ý:**
+    * Thay đổi trên lịch đã công bố có hiệu lực ngay lập tức.
+    * Hệ thống có nhật ký (Actions log) để theo dõi trạng thái thiết lập.
+
+## 3. Khả dụng & Triển khai
+* **Khu vực hỗ trợ:** US East (N. Virginia), US West (Oregon), Europe (Frankfurt), và Asia Pacific (Sydney).
+* **Chi phí:** Mô hình Pay-as-you-go (trả theo mức sử dụng).
+* **Kích hoạt:** Có thể bật ngay trong bảng điều khiển Amazon Connect (console) chỉ với một cú nhấp chuột.
+
+---
+> **Bước tiếp theo:**
+> Truy cập trang **Amazon Connect Workforce Management** để kích hoạt tính năng hoặc kiểm tra **Pricing page** để xem chi tiết chi phí.

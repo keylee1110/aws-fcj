@@ -1,0 +1,53 @@
+# Tóm tắt: Amazon EC2 R8i và R8i-flex mới (Hiệu suất & Bộ nhớ vượt trội)
+**Tác giả:** Veliswa Boya  
+**Ngày phát hành:** 19/08/2025  
+**Chủ đề:** Amazon EC2, Compute, Launch
+
+---
+
+## 1. Tổng quan
+AWS chính thức ra mắt thế hệ thứ 8 của dòng máy tối ưu bộ nhớ (Memory Optimized): **R8i và R8i-flex**.
+* **Phần cứng:** Trang bị bộ vi xử lý **Intel Xeon 6 tùy chỉnh** (độc quyền trên AWS).
+* **Công nghệ hỗ trợ:** AWS Nitro Cards thế hệ thứ 6 (tăng gấp đôi băng thông mạng và EBS).
+* **Điểm nhấn:** Sở hữu băng thông bộ nhớ nhanh nhất trong các instances dùng chip Intel trên đám mây.
+
+## 2. Cải tiến so với thế hệ trước (R7i)
+Dòng R8i mang lại bước nhảy vọt về hiệu năng:
+* **Hiệu suất/Giá (Price-performance):** Tốt hơn 15%.
+* **Hiệu năng tổng thể:** Tăng 20%.
+    * *PostgreSQL:* Nhanh hơn 30%.
+    * *NGINX:* Nhanh hơn 60%.
+    * *AI Deep Learning:* Nhanh hơn 40%.
+* **Bộ nhớ:** Băng thông cao gấp **2.5 lần**, bộ nhớ đệm L3 lớn hơn 4.6 lần.
+* **Tốc độ:** Tần số Turbo toàn nhân đạt 3.9 GHz.
+
+## 3. Phân loại & Trường hợp sử dụng
+
+Cả hai dòng đều hỗ trợ tốt cho: Database (SQL/NoSQL), In-memory DB (SAP HANA), Caching (Redis/Memcached), và Phân tích Big Data (Spark/Hadoop). Tuy nhiên, có sự phân chia rõ ràng:
+
+### A. Amazon EC2 R8i (Hiệu suất cao nhất)
+* **Đối tượng:** Các tác vụ quan trọng (mission-critical), yêu cầu duy trì hiệu suất CPU, Mạng và EBS ở mức cao liên tục.
+* **Quy mô:** Hỗ trợ cấu hình lớn nhất (lên đến `96xlarge`: 384 vCPU, 3TB RAM).
+* **Đặc biệt:** Đạt chứng nhận SAP với chỉ số 142.100 aSAPS (cao nhất hiện nay).
+
+### B. Amazon EC2 R8i-flex (Tối ưu chi phí)
+* **Đối tượng:** Các tác vụ hưởng lợi từ công nghệ mới nhưng **không khai thác hết** tài nguyên tính toán (CPU thường dùng dưới 95%).
+* **Lợi ích:**
+    * Hiệu suất/giá tốt hơn thêm 5%.
+    * **Chi phí thấp hơn 5%** so với R8i.
+* **Quy mô:** Hỗ trợ từ `large` đến `16xlarge`.
+
+## 4. Thông số kỹ thuật nổi bật
+* **Mạng & EBS:** Hỗ trợ băng thông linh hoạt, tăng gấp đôi thông lượng so với thế hệ trước.
+* **AI/ML:** Hỗ trợ kiểu dữ liệu FP16 qua Intel AMX, tối ưu cho suy luận AI.
+* **Cấu hình:**
+    * *R8i:* Tối đa 384 vCPU, 3072 GiB RAM, 100 Gbps Network.
+    * *R8i-flex:* Tối đa 64 vCPU, 512 GiB RAM, 30 Gbps Network.
+
+## 5. Khả dụng
+* **Khu vực (Regions):** US East (N. Virginia, Ohio), US West (Oregon), và Europe (Spain).
+* **Mô hình thanh toán:** Pay-as-you-go (Trả theo mức sử dụng).
+
+---
+> **Bước tiếp theo:**
+> Truy cập **Amazon EC2 Pricing** để xem chi tiết giá hoặc xem danh mục **Memory Optimized Instances** để bắt đầu chuyển đổi workloads.

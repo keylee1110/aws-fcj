@@ -1,0 +1,55 @@
+# Tóm tắt: Cẩm nang vượt qua chương trình AWS Tech U
+**Tác giả:** Jeremiah Flom, Rudy Jaurequi, Connor Sparkman  
+**Ngày phát hành:** 19/08/2025  
+**Chủ đề:** AWS Training and Certification
+
+---
+
+## 1. Giới thiệu chung
+AWS Tech U là chương trình tăng tốc sự nghiệp dành cho **nhân sự mới (Early Career Talent)**, được thiết kế để chuẩn bị các kỹ năng cần thiết cho một vai trò kỹ thuật thành công tại AWS.
+
+## 2. Cấu trúc chương trình
+Chương trình kết hợp hai trụ cột chính:
+* **Đào tạo Kỹ thuật:**
+    * Hình thức: Giảng viên hướng dẫn, phòng lab thực hành, tự học (self-paced).
+    * Nội dung: Mạng, Ứng dụng Web, Phân tích dữ liệu, Tuân thủ, AI/ML.
+* **ProSkills (Kỹ năng mềm):**
+    * Nội dung: Tư duy phản biện, kỹ năng viết, thuyết trình, làm việc nhóm, xử lý sự mơ hồ và quản lý thời gian.
+
+## 3. Chiến lược Chứng chỉ (Certifications)
+Chứng chỉ là thước đo năng lực quan trọng để xác nhận chuyên môn:
+
+### Lộ trình đề xuất
+1.  **Bắt buộc (Nền tảng):**
+    * AWS Certified Cloud Practitioner.
+    * AWS Certified Solutions Architect – Associate (SAA).
+    * AWS Certified AI Practitioner (Do xu hướng GenAI).
+2.  **Nâng cao (Tùy chọn theo định hướng):**
+    * *AWS SysOps Administrator – Associate:* Dành cho định hướng Vận hành (Ops), giám sát, bảo mật.
+    * *AWS Certified Developer – Associate:* Dành cho định hướng Phát triển (Dev), Serverless, CI/CD.
+
+### Bí quyết ôn thi
+* Sử dụng tài nguyên đào tạo chính thức của AWS.
+* Luyện tập với các bộ đề thi mẫu.
+* Xây dựng dự án cá nhân để củng cố lý thuyết.
+
+## 4. Mở rộng kiến thức & Mạng lưới
+
+### Cộng đồng Lĩnh vực Kỹ thuật (TFCs)
+* Tham gia các nhóm chuyên môn (VD: Dữ liệu, Bảo mật, Tài chính, Y tế...) để học sâu hơn.
+* **Lưu ý quan trọng:** Ưu tiên hoàn thành chương trình Tech U trước. Chỉ tham gia TFCs khi có thời gian rảnh để tránh ảnh hưởng việc học cốt lõi.
+
+### Cơ hội Shadowing (Quan sát thực tế)
+Chủ động tìm kiếm cơ hội tham gia các cuộc gọi khách hàng cùng Mentors hoặc Kiến trúc sư giải pháp (SA) đi trước.
+* **Trước buổi họp:** Nghiên cứu khách hàng (Doanh nghiệp làm gì? Vấn đề họ gặp phải là gì?).
+* **Trong buổi họp:** Lắng nghe tích cực như thể bạn là người chủ trì.
+* **Sau buổi họp:** Thảo luận lại (Debrief) với SA để so sánh ghi chú và học hỏi tư duy.
+
+## 5. 04 Mẹo để thành công
+1.  **Đặt kỳ vọng lớn:** Thiết lập ít nhất một mục tiêu lớn (chứng chỉ, dự án, shadowing) làm kim chỉ nam.
+2.  **Tìm đồng đội:** Kết nối với những người có cùng mục tiêu để học nhóm và chia sẻ áp lực.
+3.  **Làm chủ lịch trình:** Dành các "khoảng lặng" trên lịch cho việc học sâu (deep work). Mạnh dạn từ chối hoặc dời lịch họp nếu bị quá tải.
+4.  **Tích lũy theo thời gian:** Những nỗ lực nhỏ hằng ngày sẽ tạo ra kết quả lớn. Hãy nhớ nghỉ ngơi hợp lý để tránh kiệt sức (burnout).
+
+---
+> **Lời kết:** Sự phát triển tại AWS là do bạn tự định hướng (self-directed). Hãy tận dụng Tech U để xây dựng nền tảng, chủ động kết nối và luôn giữ tư duy phát triển.
